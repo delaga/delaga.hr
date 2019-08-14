@@ -3,6 +3,17 @@
 	padding: 0;
 }
 */
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+
 body{
 	background-color: #f4f4f4;
 	color: #555555;
@@ -25,7 +36,56 @@ body{
 	text-align: center;
 }
 
+.box-2{
+	border: 2px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+
 .container{
 	width: 80%;
 	margin: auto;
+}
+
+.categories{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border:none;
+	border-radius: 10px;
+}
+.button:hover{
+	background: red;
+	color: white;
+}
+.categories h2{
+	text-align: center;
+}
+.categories ul{
+	padding: 0px;
+	list-style: none;
+	padding-left: 40px;
+}
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+	list-style-image: url('../images/check.jpg')
+}
+.my-form{
+	padding: 20px;
+}
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form input[type="E-mail"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
 }
