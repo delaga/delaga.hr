@@ -4,12 +4,18 @@
 	<title>Vježbanje HTML-a</title>
 </head>
 <body>
+			<!-- Headings -->
 	<h1>Heading One</h1>
 	<h2>Heading Two</h2>
-	<h3>Heading Tree</h3>
+	<h3>Heading Three</h3>
 	<h4>Heading Four</h4>
 	<h5>Heading Five</h5>
 	<h6>Heading Six</h6>
+
+	<a href="blog.html">Idi na blog</a>
+	<br>
+			<!-- Paragraph -->
+
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -17,6 +23,8 @@
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<a href="https://www.google.com" target="_blank">Guglaj</a>
+			<!-- Lists -->
+
 	<ul>
 		<li>List Item 1</li>
 		<li>List Item 2</li>
@@ -29,6 +37,8 @@
 		<li>List Item 3</li>
 		<li>List Item 4</li>
 	</ol>
+			<!-- Table -->
+
 	<table>
 		<thead>
 			<tr>
@@ -58,25 +68,28 @@
 	<br>
 	<hr>
 	<br>
+			<!-- Forms -->
+
 	<form action="nest.php" method="POST">
 		<div>
 			<label>First name</label>
-			<input type="text" name="firstName">
+			<input type="text" name="firstName" placeholder="Enter firstName">
 		</div>
 		<br>
 		<div>
 			<label>Last name</label>
-			<input type="text" name="lastName"></input>
+			<input type="text" name="lastName" placeholder="Enter lastName"></input>
         </div>
         <br>
 		<div>
 			<label>E-mail</label>
-			<input type="E-mail" name="email"></input>
+			<input type="E-mail" name="email" placeholder="Enter E-mail"></input>
         </div>
         <br>
 		<div>
 			<label>Message</label>
-			<textarea name="message"></textarea>
+			<textarea name="message" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua."></textarea>
         </div>
         <br>
 		<div>
@@ -97,7 +110,31 @@
 			<label>Date:</label>
 			<input type="Date" name="date">
 		</div>
+		<br>
+		<input type="submit" name="submit" value="Submit">
 	</form>
+	<br>
+			<!-- Button -->
 
+	<button click="someFunction">Click Me</button>
+	<br>
+			<!-- Image -->
+
+	<a href="sample.jpg" target="_blank">
+		<img src="sample.jpg" alt="Tu bi trebala biti ptica." width="200">
+	</a>
+			<!-- Quotations -->
+	<blockquote cite="http://traversymedia.com">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</blockquote>
+	<br>
+	<p><abbr title="Lisnato tijesto punjeno MESOM">Burek</abbr> sa sirom ne postoji</p>
+	<br>
+	<p><cite>Ovo je dumina za citat</cite> by GMP</p>
 </body>
 </html>
