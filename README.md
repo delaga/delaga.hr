@@ -1,2 +1,2 @@
 # delaga.hr
-@http://www.delaga.hr
+@https://www.delaga.hr
