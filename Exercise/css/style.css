@@ -14,7 +14,6 @@ body {
 #main-header{
 	background-color: coral;
 	color: white;
-	text-align: center;
 }
 .navbar{
 	background-color: #333;
@@ -38,17 +37,31 @@ body {
 	color: blue;
 }
 #showcase{
-	
-	
+	background-image: url("../images/showcase.jpg");
+	background-position: center right;
 	min-height: 300px;
 	margin-bottom: 30px;
 	text-align: center;
 }
 #showcase h1{
-	color: #333;
-	font-size: 20px;
+	color: #fff;
+	font-size: 50px;
 	line-height: 1.6em;
 	padding-top: 30px;
+}
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
 }
 #main-footer{
 	background: #333;
@@ -57,33 +70,13 @@ body {
 	padding: 20px;
 	margin-top: 30px;
 }
-.phpdumine{
-	min-height: 200px;
-	margin-bottom: 20px;
-	text-align: center;
-	color: #333;
-	font-size: 12px;
-	line-height: 1.6em;
-	padding-top: 30px;
-
-}
-.button{
-	font-size: 12px;
-	background-color: #333;
-	color: #fff;
-	padding: 10px 15px;
-	border:none;
-	border-radius: 10px;
-}
-.button:hover{
-	background: red;
-	color: white;
-}
-.fix-me{
-	position: fixed;
-	top: 600px;
-}
-.fix-me2{
-	position: fixed;
-	top: 550px;
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
 }
