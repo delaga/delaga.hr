@@ -1,0 +1,149 @@
+/**{
+	margin: 0;
+	padding: 0;
+}
+*/
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+
+body{
+	background-color: #f4f4f4;
+	color: #555555;
+	font:normal 16px Verdana;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+.box-1{
+	background-color: #333333;
+	color: #fff;
+	border: 5px red solid;
+	padding: 5px;
+	padding-top: 20px;
+
+}
+
+.box-1 h1{
+	font-family: Tahoma;
+	text-align: center;
+}
+
+.box-2{
+	border: 2px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.categories{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border:none;
+	border-radius: 10px;
+}
+.button:hover{
+	background: red;
+	color: white;
+}
+.categories h2{
+	text-align: center;
+}
+.categories ul{
+	padding: 0px;
+	list-style: none;
+	padding-left: 40px;
+}
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+	list-style-image: url('../images/check.jpg')
+}
+.my-form{
+	padding: 20px;
+}
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form input[type="E-mail"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+.block{
+	float: left;
+	width: 33.3%;
+	border:1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.clr{
+	clear: both;
+}
+#main-block{
+	float: left;
+	width: 70%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.p-box{
+	width: 800px;
+	height: 500px;
+	border:1px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background-image: url("../images/bg.jpg");
+}
+.p-box h1{
+	position: absolute;
+	top:100px;
+	left: 200px;
+}
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+.fix-me{
+	position: fixed;
+	top: 400px;
+}
+.my-list li:first-child{
+	background: red;
+}
+.my-list li:last-child{
+	background: LightSteelBlue;
+}
+.my-list li:nth-child(5){
+	background: #FAFAD2;
+}
+.my-list li:nth-child(even){
+	background: Aquamarine;
+}
