@@ -1,12 +1,7 @@
-<?php
-	require "/php/baza.php";
-?>
+
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Ljetni zadatak</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+	<?php include_once "head.php" ?>
 <body>
 	<header id="main-header">
 		<div class="container">
